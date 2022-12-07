@@ -1,0 +1,15 @@
+{
+  "name": "whitelist-raffle",
+  "version": "0.0.1",
+  "description": "A simple tool to make a raffle",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "shuffler.js",
+  "author": "Francesco Sullo <francesco@sullo.co>",
+  "license": "MIT",
+  "dependencies": {
+    "@ndujalabs/metashu": "^0.2.2",
+    "fs-extra": "^10.0.0"
+  }
+}
