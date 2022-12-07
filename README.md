@@ -27,7 +27,7 @@ Based on https://api.mob.land/v1/snapshots/latest
 **Stage 2**
 
 1. When the selected future block is mined, include its hash in the blockinfo.json file.
-2. Launch `node .` to perform the shuffle and produce the results.
+2. Launch `./shuffler.js` to perform the shuffle and produce the results.
 3. Commit and push the update to GitHub. 
 
 ### A future block
@@ -38,7 +38,15 @@ When the block is mined this repo will be updated and ready to shuffle the metad
 
 ### The winners
 
-When the stage 2 is completed, the results will be in the folder `result`.
+When the stage 2 is completed, the results will be in the folder `result`:
+- `winners-10-free-farms.md` is the list of the winner in the 10-50k interval
+- `winners-60-free-farms.md` is the list of the winner in the +50-250k interval
+- `winners-190-wl-for-farms.md` is the list of the winner of a whitelist slot to but a farm
+
+Moreover, in the same folder there will be the final lists:
+- `freeFarmWinners.md` is the list of all the wallet that will receive a free Farm
+- `wlFarmWinners.md is` the list of all the whitelist slots for farms (included the ones above)
+- `wlTurfWinners.md is` the list of all the whitelist slots for turfs (included the ones above)
 
 ### Credits
 
