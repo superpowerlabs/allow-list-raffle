@@ -12,17 +12,13 @@ Based on https://api.mob.land/v1/snapshots/latest
 
 #### The flow
 
-**Stage 0**
+**Stage 1** (done)
 
 1. This code is created.
 2. The CSV file downloaded from https://api.mob.land/v1/snapshots/latest is put in this repo at [input/snapshot-4th-december-2022.csv](https://github.com/superpowerlabs/allow-list-raffle/blob/main/input/snapshot-4th-december-2022.csv)
-3. Commit and push to Github.
-
-**Stage 1** (done)
-
-1. Chose a future block on the BNB blockchain. 
-2. Include the selected block in the file `input/blockinfo.json` and update this repo.
-3. Commit and push to GitHub.
+3. Chose a future block on the BNB blockchain. 
+4. Include the selected block in the file `input/blockinfo.json` and update this repo.
+5. Commit and push to GitHub.
 
 **Stage 2**
 
