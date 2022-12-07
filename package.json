@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "A simple tool to make a raffle",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*.test.js --exit"
   },
   "main": "shuffler.js",
   "author": "Francesco Sullo <francesco@sullo.co>",
@@ -11,5 +11,9 @@
   "dependencies": {
     "@ndujalabs/metashu": "^0.2.2",
     "fs-extra": "^10.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.2"
   }
 }
