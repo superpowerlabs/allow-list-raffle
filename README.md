@@ -50,5 +50,5 @@ Author: [Francesco Sullo(https://github.com/sullof)
 
 (c) 2022 Superpower Labs Inc.
 
-### License~~~~
+### License
 MIT
